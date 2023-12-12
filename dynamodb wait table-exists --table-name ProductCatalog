@@ -1,0 +1,29 @@
+{
+    "TableDescription": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "Id",
+                "AttributeType": "N"
+            }
+        ],
+        "TableName": "ProductCatalog",
+        "KeySchema": [
+            {
+                "AttributeName": "Id",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "CREATING",
+        "CreationDateTime": "2023-12-12T16:50:37.833000+00:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 10,
+            "WriteCapacityUnits": 5
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:us-east-1:372847348476:table/ProductCatalog",
+        "TableId": "a5600411-6dab-4ba2-8a96-3b4a5d9a2549",
+        "DeletionProtectionEnabled": false
+    }
+}

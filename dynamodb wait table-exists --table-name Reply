@@ -1,0 +1,37 @@
+{
+    "TableDescription": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "Id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "ReplyDateTime",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "Reply",
+        "KeySchema": [
+            {
+                "AttributeName": "Id",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "ReplyDateTime",
+                "KeyType": "RANGE"
+            }
+        ],
+        "TableStatus": "CREATING",
+        "CreationDateTime": "2023-12-12T17:18:34.677000+00:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 10,
+            "WriteCapacityUnits": 5
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:us-east-1:372847348476:table/Reply",
+        "TableId": "aa8c145d-4541-4b2c-9ae3-9659c2145a0c",
+        "DeletionProtectionEnabled": false
+    }
+}

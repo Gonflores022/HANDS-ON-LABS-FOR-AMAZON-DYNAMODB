@@ -1,0 +1,37 @@
+{
+    "TableDescription": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "ForumName",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "Subject",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "Thread",
+        "KeySchema": [
+            {
+                "AttributeName": "ForumName",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "Subject",
+                "KeyType": "RANGE"
+            }
+        ],
+        "TableStatus": "CREATING",
+        "CreationDateTime": "2023-12-12T17:17:11.669000+00:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 10,
+            "WriteCapacityUnits": 5
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:us-east-1:372847348476:table/Thread",
+        "TableId": "ac96e73c-3cac-4cac-8ab3-d3cee6befd61",
+        "DeletionProtectionEnabled": false
+    }
+}
